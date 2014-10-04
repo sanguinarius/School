@@ -1,0 +1,301 @@
+#!/bin/sh
+## moulicat_system_cat.sh for  in /Users/GuiGui/Documents/ETNA/C/my_cat
+## 
+## Made by Guillaume Petitpre
+## Login   <petitp_g@etna-alternance.net>
+## 
+## Started on  Fri Feb  7 16:41:09 2014 Guillaume Petitpre
+## Last update Wed Feb 26 21:30:37 2014 Guillaume Petitpre
+##
+#!/bin/sh
+
+##Couleurs kikoo
+VERT="\\033[1;32m"
+NORMAL="\\033[0;39m"
+ROUGE="\\033[1;31m"
+ROSE="\\033[1;35m"
+BLEU="\\033[1;34m"
+BLANC="\\033[0;02m"
+BLANCLAIR="\\033[1;08m"
+JAUNE="\\033[1;33m"
+CYAN="\\033[1;36m"
+
+echo "$ROSE""/**************************************************************************************\\"
+echo "|               Cette moulinette vous permet de tester votre cat simplement.           |"
+echo "|$ROUGE                          /!\ Elle n'a rien d'officielle. /!\ $ROSE                        |"
+echo "| Vous êtes fortement encouragé à faire d'autres test notamment pour l'entrée standard |"
+echo "\**************************************************************************************/""$NORMAL"
+echo ""
+##Test de base de toutes les options
+rm -rf log
+mkdir log
+if [ $# -eq 1 ]
+	then
+	echo "$CYAN""Starting basic tests""$NORMAL"
+	echo ""
+	./cat $1 > my_cat ; cat $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat $1 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat $1 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_no_opt.log
+	fi
+	./cat -n $1 > my_cat ; cat -n $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat $1 -n : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat $1 -n : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_n.log
+	fi
+	./cat -b $1 > my_cat ; cat -b $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat $1 -b : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat $1 -b : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_b.log
+	fi
+	./cat -e $1 > my_cat ; cat -e $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -e $1 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -e $1 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_e.log
+	fi
+	./cat -eb $1 > my_cat ; cat -eb $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -eb $1 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -eb $1 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_eb.log
+	fi
+	./cat -en $1 > my_cat ; cat -en $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -en $1 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -en $1 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_en.log
+	fi
+	./cat -ebn $1 > my_cat ; cat -ebn $1 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -ebn $1 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -ebn $1 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/cat_ebn.log
+	fi
+	echo ""
+	echo "$BLEU""Starting STDIN tests""$NORMAL"
+	echo ""
+	cat $1 | ./cat > my_cat ; cat $1 | cat > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_no_opt.log
+	fi
+	cat $1 | ./cat -n > my_cat ; cat $1 | cat -n > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat -n : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat -n : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_n.log
+	fi
+	cat $1 | ./cat -b > my_cat ; cat $1 | cat -b > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat -b : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat -b : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_b.log
+	fi
+	cat $1 | ./cat -e > my_cat ; cat $1 | cat -e > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat -e : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat -e : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_e.log
+	fi
+	cat $1 | ./cat -eb > my_cat ; cat $1 | cat -eb > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat -eb : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat -eb : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_eb.log
+	fi
+	cat $1 | ./cat -en > my_cat ; cat $1 | cat -en > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat -en : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat -en : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_en.log
+	fi
+	cat $1 | ./cat -ebn > my_cat ; cat $1 | cat -ebn > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""cat $1 | ./cat -ebn : success""$NORMAL"
+	else
+		echo "$ROUGE""cat $1 | ./cat -ebn : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/stdin_ebn.log
+	fi
+	echo ""
+	echo "$ROUGE""Starting Bitches tests - If you fail on -e option it's probably because you don't manage the non-printable characters""$NORMAL"
+	echo ""
+	man man | ./cat > my_cat ; man man | cat > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_no_opt.log
+	fi
+	man man | ./cat -b > my_cat ; man man | cat -b > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat -b : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat -b : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_b.log
+	fi
+	man man | ./cat -n > my_cat ; man man | cat -n > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat -n : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat -n : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_n.log
+	fi
+	man man | ./cat -e > my_cat ; man man | cat -e > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat -e : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat -e : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_e.log
+	fi
+	man man | ./cat -eb > my_cat ; man man | cat -eb > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat -eb : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat -eb : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_eb.log
+	fi
+	man man | ./cat -en > my_cat ; man man | cat -en > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat -en : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat -en : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_en.log
+	fi
+	man man | ./cat -ebn > my_cat ; man man | cat -ebn > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man man | ./cat -e : success""$NORMAL"
+	else
+		echo "$ROUGE""man man | ./cat -e : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_cc_ebn.log
+	fi
+	man open | ./cat > my_cat ; man open | cat > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_no_opt.log
+	fi
+	man open | ./cat -b > my_cat ; man open | cat -b > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat -b : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat -b : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_b.log
+	fi
+	man open | ./cat -n > my_cat ; man open | cat -n > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat -n : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat -n : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_n.log
+	fi
+	man open | ./cat -e > my_cat ; man open | cat -e > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat -e : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat -e : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_e.log
+	fi
+	man open | ./cat -eb > my_cat ; man open | cat -eb > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat -eb : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat -eb : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_eb.log
+	fi
+	man open | ./cat -en > my_cat ; man open | cat -en > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat -en : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat -en : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_en.log
+	fi
+	man open | ./cat -ebn > my_cat ; man open | cat -ebn > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""man open | ./cat -e : success""$NORMAL"
+	else
+		echo "$ROUGE""man open | ./cat -e : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/man_open_ebn.log
+	fi
+	rm cat_system my_cat
+	exit 0
+fi
+
+##Test sur plusieurs fichiers à la fois (3 fichiers pour ce test)
+if [ $# -eq 3 ]
+	then
+	echo "$JAUNE""Starting multiple files tests"
+	echo ""
+	./cat $1 $2 $3 > my_cat ; cat $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_no_opt.log
+	fi
+	./cat -e $1 $2 $3 > my_cat ; cat -e $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -e $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -e $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_e.log
+	fi
+	./cat -n $1 $2 $3 > my_cat ; cat -n $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -n $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -n $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_n.log
+	fi
+	./cat -b $1 $2 $3 > my_cat ; cat -b $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -b $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -b $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_b.log
+	fi
+	./cat -en $1 $2 $3 > my_cat ; cat -en $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -en $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -en $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_en.log
+	fi
+	./cat -eb $1 $2 $3 > my_cat ; cat -eb $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -eb $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -eb $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_eb.log
+	fi
+	./cat -ebn $1 $2 $3 > my_cat ; cat -ebn $1 $2 $3 > cat_system ; diff cat_system my_cat > /dev/null
+	if [[ $? -eq 0 ]]; then
+		echo "$VERT""./cat -ebn $1 $2 $3 : success""$NORMAL"
+	else
+		echo "$ROUGE""./cat -ebn $1 $2 $3 : fail. Check the log file""$NORMAL"
+		diff cat_system my_cat > log/multi_ebn.log
+	fi
+	rm cat_system my_cat
+	exit 0
+else
+	echo "$ROUGE""Usage : ./test.sh file1 [file2 file3]""$NORMAL"
+	exit 1
+fi

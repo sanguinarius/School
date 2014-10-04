@@ -1,0 +1,21 @@
+TABLE nom_table
+(
+	id	integer	PRIMARY_KEY	,
+	nom	string	NOT_NULL	,
+	pnom	string			,
+	age	integer			,
+);
+TABLE nom_table
+{
+0	dugland	toto	24
+};
+TABLE clients
+(
+	id		integer	PRIMARY_KEY	,
+	nom		string	NOT_NULL	,
+	pnom		string			,
+	age		integer
+);
+TABLE clients
+{
+};
