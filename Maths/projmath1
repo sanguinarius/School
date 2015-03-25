@@ -1,0 +1,186 @@
+#!/usr/bin/php
+
+<?php
+
+function print_line($a, $b = "...", $c = "...", $d = "...", $e = "...")
+{
+  echo "|\t$a\t|\t$b\t|\t$c\t|\t$d\t|\t$e\t|\n";
+}
+
+function print_border()
+{
+  echo "---------------------------------------------------------------------------------------------------------------------------------------------------------\n";
+}
+
+function method_rectangle($a, $b, $f, $n)
+{
+  $h = ($b - $a) / $n;
+  $res = ($h * sommefx($n - 1, 0, $f, $a, $b, $h));
+  return $res;
+}
+
+function method_trapezes($a, $b, $f, $n)
+{
+  $h = ($b - $a) / $n;
+  $res = $h * ((($f($a) + $f($b)) / 2) + sommefx($n - 1, 1, $f, $a, $b, $h));
+  return $res;
+}
+
+function method_simpson($a, $b, $f, $n)
+{
+  $h = ($b - $a) / $n;
+  $res = (($b - $a) / (6 * $n)) * ($f($a) + $f($b) + 2 * sommefx($n - 1, 1, $f, $a, $b, $h) + 4 * somme_simpson($n - 1, 0, $f, $a, $b, $h));
+  return $res;
+}
+
+function sommefx($n, $i, $f, $a, $b, $h)
+{
+  $res = 0;
+
+  for (; $i <= $n; $i++)
+    $res += $f($a + $i * $h);
+  return $res;
+}
+
+function somme_simpson($n, $i, $f, $a, $b, $h)
+{
+  $res = 0;
+
+  for (; $i <= $n; $i++)
+    $res += $f((($a + $i * $h) + ($a + (($i + 1) * $h))) / 2);;
+  return $res;
+}
+
+// declaration des fonctions f(x)
+function f1($x)
+{
+  return pow($x, 2);
+}
+
+function f2($x)
+{
+  return 1 / (1 + $x);
+}
+
+function f3($x)
+{
+  return exp($x);
+}
+
+function f4($x)
+{
+  return sin($x);
+}
+
+// declaration des densites de probabilites
+function d1($x)
+{
+  return $x * (4 * $x * exp(-2 * $x));
+}
+
+function d2($x)
+{
+  return $x * (3 / pow($x, 4));
+}
+
+function d3($x)
+{
+  return $x * (2 * $x * exp(-pow($x, 2)));
+}
+
+function d4($x)
+{
+  return $x * ((1 / (sqrt(2 * pi()))) * exp((-1 / 2) * pow($x - 2, 2)));
+}
+function d5($x)
+{
+  return (4 * $x * exp(-2 * $x));
+}
+
+function d6($x)
+{
+  return (3 / pow($x, 4));
+}
+
+function d7($x)
+{
+  return (2 * $x * exp(-pow($x, 2)));
+}
+
+function d8($x)
+{
+  return ((1 / (sqrt(2 * pi()))) * exp((-1 / 2) * pow($x - 2, 2)));
+}
+
+// declaration des fonctions sur la variance
+function v1($x)
+{
+  global $esp1;
+  return pow($x - $esp1, 2) * d5($x);
+}
+
+function v2($x)
+{
+  global $esp2;
+  return pow($x - $esp2, 2) * d6($x);
+}
+
+function v3($x)
+{
+  global $esp3;
+  return pow($x - $esp3, 2) * d7($x);
+}
+
+function v4($x)
+{
+  global $esp4;
+  return pow($x - $esp4, 2) * d8($x);
+}
+
+// caching de l'esperance
+$esp1 = method_simpson(0, 100, "d1", round(20 * (100 - 0)));
+$esp2 = method_simpson(1, 100, "d2", round(20 * (100 - 1)));
+$esp3 = method_simpson(0, 100, "d3", round(20 * (100 - 0)));
+$esp4 = method_simpson(-8, 10, "d4", round(20 * (10 - (-8))));
+
+// declaration des intervalles pour les f(x)
+$a = 1;
+$b = 2;
+$n = 20;
+
+// variables de configurations
+$decimals = 10;
+
+// tableau
+print_border();
+print_line("                                            ", "   f1(x)   ", "   f2(x)   ", "   f3(x)   ", "   f4(x)   ");
+print_border();
+print_line("valeur obtenue en phase 1 arrondie au centieme", number_format(7 / 3, $decimals), 0.4054651081, 4.6707742704, 0.9564491424);
+print_line("         methode du rectangle              ",
+	   number_format(method_rectangle($a, $b, "f1", $n), $decimals),
+	   number_format(method_rectangle($a, $b, "f2", $n), $decimals),
+	   number_format(method_rectangle($a, $b, "f3", $n), $decimals),
+	   number_format(method_rectangle($a, $b, "f4", $n), $decimals));
+print_line("         methode des trapezes              ",
+	   number_format(method_trapezes($a, $b, "f1", $n), $decimals),
+	   number_format(method_trapezes($a, $b, "f2", $n), $decimals),
+	   number_format(method_trapezes($a, $b, "f3", $n), $decimals),
+	   number_format(method_trapezes($a, $b, "f4", $n), $decimals));
+print_line("         methode de Simpson              ",
+	   number_format(method_simpson($a, $b, "f1", $n), $decimals),
+	   number_format(method_simpson($a, $b, "f2", $n), $decimals),
+	   number_format(method_simpson($a, $b, "f3", $n), $decimals),
+	   number_format(method_simpson($a, $b, "f4", $n), $decimals));
+print_line("         esperance                       ",
+	   number_format(method_simpson(0, 100, "d1", round(20 * (100 - 0))), $decimals),
+	   number_format(method_simpson(1, 100, "d2", round(20 * (100 - 1))), $decimals),
+	   number_format(method_simpson(0, 100, "d3", round(20 * (100 - 0))), $decimals),
+	   number_format(method_simpson(-8, 10, "d4", round(20 * (10 - (-8)))), $decimals));
+print_line("         variance                        ",
+	   number_format(method_simpson(0, 100, "v1", round(20 * (100 - 0))), $decimals),
+	   number_format(method_simpson(1, 100, "v2", round(20 * (100 - 1))), $decimals),
+	   number_format(method_simpson(0, 100, "v3", round(20 * (100 - 0))), $decimals),
+	   number_format(method_simpson(-8, 10, "v4", round(20 * (10 - (-8)))), $decimals));;
+print_border();
+
+?>
