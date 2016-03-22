@@ -2,7 +2,7 @@
 ** ls.c for ls.c in /Users/laxa/Documents/C/my_ls/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Aug  6 14:33:56 2014 Julien EGLOFF
 ** Last update Wed Aug 13 15:02:44 2014 Julien EGLOFF

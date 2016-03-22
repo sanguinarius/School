@@ -3,7 +3,7 @@
 // cat.php for cat.php in /Users/laxa/Documents/Piscine/PHP/Jour_04/egloff_j/cat
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Fri Apr 11 09:47:37 2014 Julien EGLOFF
 // Last update Tue Jun 10 15:37:30 2014 Julien EGLOFF

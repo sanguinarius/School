@@ -2,7 +2,7 @@
 ** attack.c for attack for ragnarok in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete1
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Apr  5 08:32:36 2014 EGLOFF Julien
 ** Last update Sat Apr  5 18:01:10 2014 EGLOFF Julien

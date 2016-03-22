@@ -2,7 +2,7 @@
 ** my_sort_wordtab.c for my_sort_wordtab in /Users/laxa/Documents/Piscine/C/Jour_08/egloff_j/my_sort_wordtab
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Apr  3 11:39:32 2014 EGLOFF Julien
 ** Last update Thu Apr  3 11:47:17 2014 EGLOFF Julien

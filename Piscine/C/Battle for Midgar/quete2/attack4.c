@@ -2,7 +2,7 @@
 ** attack4.c for attack4.c for BFM in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete2
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Apr  5 15:53:09 2014 EGLOFF Julien
 ** Last update Sat Apr  5 15:58:29 2014 EGLOFF Julien

@@ -2,7 +2,7 @@
 ** cat_file.c for cat_file.c in /Users/laxa/Documents/C/my_cat/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Tue Jun 24 16:51:47 2014 Julien EGLOFF
 ** Last update Fri Jul  4 15:23:04 2014 Julien EGLOFF

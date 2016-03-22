@@ -2,7 +2,7 @@
 ** xfopen.c for xfopen.c in /Users/laxa/Documents/C/my_cat/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Jun 26 11:33:43 2014 Julien EGLOFF
 ** Last update Thu Jun 26 11:38:58 2014 Julien EGLOFF

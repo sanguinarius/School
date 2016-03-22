@@ -2,7 +2,7 @@
 // quit.php for quit.php in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 24 11:57:36 2014 Julien EGLOFF
 // Last update Fri Apr 25 15:25:35 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 ** my_sum_params.c for my_sum_params in /Users/laxa/Documents/Piscine/C/Jour_06/egloff_j/my_sum_params
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Tue Apr  1 11:41:55 2014 EGLOFF Julien
 ** Last update Tue Apr  1 14:42:46 2014 EGLOFF Julien

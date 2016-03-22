@@ -2,7 +2,7 @@
 // create_img2.php for create_img2.php in /Users/laxa/Documents/Piscine/PHP/Jour_09/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 17 16:45:36 2014 Julien EGLOFF
 // Last update Fri Apr 18 11:27:29 2014 Julien EGLOFF

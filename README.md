@@ -1,4 +1,1 @@
-ETNA
-====
-
-All projects from my school : ETNA
+Some projects during my scholarity

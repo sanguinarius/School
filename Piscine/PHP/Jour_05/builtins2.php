@@ -2,7 +2,7 @@
 // builtins2.php for builtins2.php in /Users/laxa/Documents/Piscine/PHP/Jour_05/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Fri Apr 11 19:57:55 2014 Julien EGLOFF
 // Last update Sat Apr 12 11:12:16 2014 Julien EGLOFF

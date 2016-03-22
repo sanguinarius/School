@@ -2,7 +2,7 @@
 // parse_html.php for parse_html.php in /Users/laxa/Documents/Piscine/PHP/Jour_09/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 17 10:04:36 2014 Julien EGLOFF
 // Last update Fri Apr 18 09:47:38 2014 Julien EGLOFF

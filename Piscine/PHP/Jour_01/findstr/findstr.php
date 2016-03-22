@@ -3,7 +3,7 @@
 // findstr.php for findstr.php in /Users/laxa/Documents/Piscine/PHP/Jour_01/egloff_j/findstr
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr  8 12:34:21 2014 Julien EGLOFF
 // Last update Mon Apr 14 10:00:33 2014 Julien EGLOFF

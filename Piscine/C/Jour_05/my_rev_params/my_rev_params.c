@@ -2,7 +2,7 @@
 ** my_rev_params.c for my_rev_params in /Users/laxa/Documents/Piscine/C/Jour_05/egloff_j/my_rev_params
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Mar 29 11:55:47 2014 EGLOFF Julien
 ** Last update Sat Mar 29 11:56:38 2014 EGLOFF Julien

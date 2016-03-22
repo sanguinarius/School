@@ -2,7 +2,7 @@
 ** my_is_prime.c for my_is_prime in /Users/laxa/Documents/Piscine/C/Jour_03/egloff_j/my_is_prime
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Mar 27 11:56:19 2014 EGLOFF Julien
 ** Last update Thu Mar 27 12:07:40 2014 EGLOFF Julien

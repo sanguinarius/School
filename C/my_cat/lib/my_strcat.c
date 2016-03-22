@@ -2,7 +2,7 @@
 ** my_strcat.c for my_strcat in /Users/laxa/Documents/Piscine/C/Jour_05/egloff_j/libmy
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Mar 29 09:59:23 2014 EGLOFF Julien
 ** Last update Sat Mar 29 13:46:31 2014 EGLOFF Julien

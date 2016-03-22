@@ -3,7 +3,7 @@
 // sortint.php for sortint.php in /Users/laxa/Documents/Piscine/PHP/Jour_03/egloff_j/sortint
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 10 09:34:31 2014 Julien EGLOFF
 // Last update Thu Apr 10 09:38:43 2014 Julien EGLOFF

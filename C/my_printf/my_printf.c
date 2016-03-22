@@ -2,7 +2,7 @@
 ** my_printf.c for my_printf in /Users/laxa/Documents/C/my_printf/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Nov 12 11:21:37 2014 Julien EGLOFF
 ** Last update Wed Nov 12 15:48:28 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 ** operators.c for operators.c in /Users/laxa/Documents/C/my_printf/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Nov 12 12:38:58 2014 Julien EGLOFF
 ** Last update Wed Nov 12 16:05:41 2014 Julien EGLOFF

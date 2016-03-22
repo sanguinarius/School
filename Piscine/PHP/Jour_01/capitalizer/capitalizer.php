@@ -3,7 +3,7 @@
 // capitalizer.php for capitalizer.php in /Users/laxa/Documents/Piscine/PHP/Jour_01/egloff_j/capitalizer
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr  8 11:02:54 2014 Julien EGLOFF
 // Last update Tue Apr  8 14:08:35 2014 Julien EGLOFF

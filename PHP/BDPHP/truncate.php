@@ -2,7 +2,7 @@
 // truncate.php for  in /Users/princetim/piscine/BDPHP
 // 
 // Made by timothee lestin
-// Login   <lestin_t@etna-alternance.net>
+// Login   
 // 
 // Started on  Fri Apr 25 11:05:58 2014 timothee lestin
 // Last update Fri Apr 25 15:27:11 2014 Julien EGLOFF

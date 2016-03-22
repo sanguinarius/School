@@ -2,7 +2,7 @@
 ** my_find_node_eq_in_list.c for my_find_node_eq_in_list.c in /Users/laxa/Documents/Piscine/C/Jour_09/egloff_j/my_find_node_eq_in_list
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 11:55:10 2014 EGLOFF Julien
 ** Last update Fri Apr  4 11:57:36 2014 EGLOFF Julien

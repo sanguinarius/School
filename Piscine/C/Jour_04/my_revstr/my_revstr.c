@@ -2,7 +2,7 @@
 ** my_revstr.c for my_revstr in /Users/laxa/Documents/Piscine/C/Jour_04/egloff_j/my_revstr
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Mar 28 09:42:30 2014 EGLOFF Julien
 ** Last update Fri Mar 28 10:01:52 2014 EGLOFF Julien

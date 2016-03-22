@@ -3,7 +3,7 @@
 // phone.php for phone.php in /Users/laxa/Documents/Piscine/PHP/Jour_07/egloff_j/phone
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr 15 10:01:49 2014 Julien EGLOFF
 // Last update Tue Apr 15 10:19:56 2014 Julien EGLOFF

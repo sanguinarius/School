@@ -2,7 +2,7 @@
 // my_explode.php<2> for my_explode.php in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr 23 10:14:22 2014 Julien EGLOFF
 // Last update Thu Apr 24 17:05:10 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 ** readline.c for readline in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete1
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 19:22:54 2014 EGLOFF Julien
 ** Last update Fri Apr  4 19:47:28 2014 EGLOFF Julien

@@ -3,7 +3,7 @@
 // surface.php for surface.php in /Users/laxa/Documents/Piscine/PHP/Jour_08/egloff_j/surface
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr 16 09:31:25 2014 Julien EGLOFF
 // Last update Wed Apr 16 09:40:01 2014 Julien EGLOFF

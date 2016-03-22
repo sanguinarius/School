@@ -2,7 +2,7 @@
 ** monster_attack2.c for monster_attack2.c in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete2
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Apr  5 15:59:00 2014 EGLOFF Julien
 ** Last update Sat Apr  5 16:05:04 2014 EGLOFF Julien

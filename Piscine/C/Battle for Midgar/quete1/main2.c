@@ -2,7 +2,7 @@
 ** main2.c for main2.c for BFM in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete1
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Apr  5 10:16:52 2014 EGLOFF Julien
 ** Last update Sat Apr  5 11:34:10 2014 EGLOFF Julien

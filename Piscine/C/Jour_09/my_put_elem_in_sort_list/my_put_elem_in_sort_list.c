@@ -2,7 +2,7 @@
 ** my_put_elem_in_sort_list.c for my_put_elem_in_sort_list.c in /Users/laxa/Documents/Piscine/C/Jour_09/egloff_j/my_put_elem_in_sort_list
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 17:13:19 2014 EGLOFF Julien
 ** Last update Fri Apr  4 17:24:55 2014 EGLOFF Julien

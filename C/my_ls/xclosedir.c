@@ -2,7 +2,7 @@
 ** xclosedir.c for xclosedir in /Users/laxa/Documents/C/my_ls/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Aug  6 12:20:58 2014 Julien EGLOFF
 ** Last update Wed Aug  6 12:27:36 2014 Julien EGLOFF

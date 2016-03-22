@@ -3,7 +3,7 @@
 // options.php for options.php in /Users/laxa/Documents/Piscine/PHP/Jour_02/egloff_j/options
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr  9 10:01:11 2014 Julien EGLOFF
 // Last update Wed Apr  9 12:05:28 2014 Julien EGLOFF

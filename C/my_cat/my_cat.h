@@ -2,7 +2,7 @@
 ** my_cat.h for my_cat.h in /Users/laxa/Documents/C/my_cat/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Mon Jun 16 10:15:06 2014 Julien EGLOFF
 ** Last update Thu Jun 26 12:13:25 2014 Julien EGLOFF

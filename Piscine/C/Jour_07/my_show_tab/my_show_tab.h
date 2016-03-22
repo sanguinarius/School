@@ -2,7 +2,7 @@
 ** my_show_tab.h for my_show_tab.h in /Users/laxa/Documents/Piscine/C/Jour_07/egloff_j/my_show_tab
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Apr  2 11:31:50 2014 EGLOFF Julien
 ** Last update Wed Apr  2 11:36:44 2014 EGLOFF Julien

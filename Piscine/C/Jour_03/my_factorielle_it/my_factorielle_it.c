@@ -2,7 +2,7 @@
 ** my_factorielle_it.c for my_factorielle_it in /Users/laxa/Documents/Piscine/C/Jour_03/egloff_j/my_factorielle_it
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Mar 27 09:02:06 2014 EGLOFF Julien
 ** Last update Thu Mar 27 09:28:58 2014 EGLOFF Julien

@@ -2,7 +2,7 @@
 ** libmy.h for libmy.h in /Users/laxa/Documents/Piscine/C/Jour_05/egloff_j/libmy
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Sat Mar 29 11:52:44 2014 EGLOFF Julien
 ** Last update Sat Mar 29 13:50:59 2014 EGLOFF Julien

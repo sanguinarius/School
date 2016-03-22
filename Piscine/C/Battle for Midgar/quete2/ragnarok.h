@@ -2,7 +2,7 @@
 ** ragnarok.h for ragnarok in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete1
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 19:23:35 2014 EGLOFF Julien
 ** Last update Sat Apr  5 18:13:46 2014 EGLOFF Julien

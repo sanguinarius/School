@@ -3,7 +3,7 @@
 // palindrome.php for palindrome.php in /Users/laxa/Documents/Piscine/PHP/Jour_01/egloff_j/palindrome
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr  8 11:36:55 2014 Julien EGLOFF
 // Last update Tue Apr  8 15:57:48 2014 Julien EGLOFF

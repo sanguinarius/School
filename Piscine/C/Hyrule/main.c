@@ -2,7 +2,7 @@
 ** main.c for main.c for Hyrule in /Users/laxa/Documents/Piscine/C/Hyrule
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Apr 10 15:55:24 2014 Julien EGLOFF
 ** Last update Thu Apr 10 17:05:58 2014 Julien EGLOFF

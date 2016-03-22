@@ -2,7 +2,7 @@
 // func_create.php for func_create.php in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr 23 17:23:07 2014 Julien EGLOFF
 // Last update Fri Apr 25 15:37:53 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 // desc.php for desc.php in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 24 12:13:42 2014 Julien EGLOFF
 // Last update Fri Apr 25 15:22:25 2014 Julien EGLOFF

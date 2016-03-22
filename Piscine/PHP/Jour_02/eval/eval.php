@@ -3,7 +3,7 @@
 // eval.php for eval.php in /Users/laxa/Documents/Piscine/PHP/Jour_02/egloff_j/eval
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr  9 13:43:08 2014 Julien EGLOFF
 // Last update Wed Apr  9 13:51:10 2014 Julien EGLOFF

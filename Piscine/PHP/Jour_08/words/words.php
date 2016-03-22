@@ -3,7 +3,7 @@
 // words.php for words.php in /Users/laxa/Documents/Piscine/PHP/Jour_08/egloff_j/words
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr 16 10:07:05 2014 Julien EGLOFF
 // Last update Wed Apr 16 10:55:43 2014 Julien EGLOFF

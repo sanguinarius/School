@@ -2,7 +2,7 @@
 ** my_list.h for my_list.h in /Users/laxa/Documents/Piscine/C/Jour_09/egloff_j/my_list
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 09:01:48 2014 EGLOFF Julien
 ** Last update Fri Apr  4 11:47:10 2014 EGLOFF Julien

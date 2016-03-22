@@ -2,7 +2,7 @@
 ** my_param_to_tab.h for my_param_to_tab.h in /Users/laxa/Documents/Piscine/C/Jour_07/egloff_j/my_param_to_tab
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Apr  2 10:13:44 2014 EGLOFF Julien
 ** Last update Wed Apr  2 11:17:56 2014 EGLOFF Julien

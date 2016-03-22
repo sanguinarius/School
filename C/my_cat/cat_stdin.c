@@ -2,7 +2,7 @@
 ** cat_stdin.c for cat_stdin in /Users/laxa/Documents/C/my_cat/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Tue Jun 24 15:12:32 2014 Julien EGLOFF
 ** Last update Thu Jun 26 12:08:12 2014 Julien EGLOFF

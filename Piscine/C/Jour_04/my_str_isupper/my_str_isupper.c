@@ -2,7 +2,7 @@
 ** my_str_isupper.c for my_str_isupper in /Users/laxa/Documents/Piscine/C/Jour_04/egloff_j/my_str_isupper
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Mar 28 13:15:12 2014 EGLOFF Julien
 ** Last update Fri Mar 28 13:16:15 2014 EGLOFF Julien

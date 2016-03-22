@@ -3,7 +3,7 @@
 // sortparams.php for sortparams.php in /Users/laxa/Documents/Piscine/PHP/Jour_02/egloff_j/sortparams
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr  9 09:09:50 2014 Julien EGLOFF
 // Last update Wed Apr  9 09:32:45 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 // check_error.php for  in /Users/ferielabachi/picine/phpicine/imagepanel/egloff_j
 // 
 // Made by fériel abachi
-// Login   <abachi_f@etna-alternance.net>
+// Login   
 // 
 // Started on  Thu Apr 17 19:07:35 2014 fériel abachi
 // Last update Fri Apr 18 11:21:27 2014 Julien EGLOFF

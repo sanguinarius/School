@@ -3,7 +3,7 @@
 // bdphp.php for bdphp.net in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr 22 10:35:45 2014 Julien EGLOFF
 // Last update Fri Apr 25 15:25:28 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 // drop.php for drop in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 24 16:39:30 2014 Julien EGLOFF
 // Last update Fri Apr 25 15:36:08 2014 Julien EGLOFF

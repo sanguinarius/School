@@ -2,7 +2,7 @@
 ** my_rm_all_eq_from_list.c for my_rm_all_eq_from_list.c in /Users/laxa/Documents/Piscine/C/Jour_09/egloff_j/my_rm_all_eq_from_list
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 12:03:04 2014 EGLOFF Julien
 ** Last update Fri Apr  4 17:32:24 2014 EGLOFF Julien

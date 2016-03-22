@@ -2,7 +2,7 @@
 ** my_aff_alpha.c for my_aff_alpha in /Users/laxa/Documents/Piscine/C/Jour_01/egloff_j/my_aff_alpha
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Mon Mar 24 09:18:13 2014 EGLOFF Julien
 ** Last update Mon Mar 24 09:39:17 2014 EGLOFF Julien

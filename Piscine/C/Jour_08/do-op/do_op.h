@@ -2,7 +2,7 @@
 ** do-op.h for do-op in /Users/laxa/Documents/Piscine/C/Jour_08/egloff_j/do-op
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Apr  3 10:12:29 2014 EGLOFF Julien
 ** Last update Thu Apr  3 13:46:50 2014 EGLOFF Julien

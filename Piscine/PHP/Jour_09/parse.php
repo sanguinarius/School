@@ -2,7 +2,7 @@
 // main.php for  in /Users/ferielabachi/picine/phpicine/imagepanel
 // 
 // Made by fériel abachi
-// Login   <abachi_f@etna-alternance.net>
+// Login   
 // 
 // Started on  Wed Apr 16 19:09:24 2014 fériel abachi
 // Last update Fri Apr 18 10:48:58 2014 Julien EGLOFF

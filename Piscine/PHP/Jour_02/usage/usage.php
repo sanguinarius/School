@@ -3,7 +3,7 @@
 // usage.php for usage.php in /Users/laxa/Documents/Piscine/PHP/Jour_02/egloff_j/usage
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr  9 11:11:51 2014 Julien EGLOFF
 // Last update Wed Apr  9 12:40:04 2014 Julien EGLOFF

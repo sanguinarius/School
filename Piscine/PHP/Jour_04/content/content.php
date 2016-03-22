@@ -3,7 +3,7 @@
 // content.php for content.php in /Users/laxa/Documents/Piscine/PHP/Jour_04/egloff_j/content
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Fri Apr 11 09:22:48 2014 Julien EGLOFF
 // Last update Fri Apr 11 09:45:56 2014 Julien EGLOFF

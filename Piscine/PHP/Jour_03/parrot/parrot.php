@@ -3,7 +3,7 @@
 // parrot.php for parrot.php in /Users/laxa/Documents/Piscine/PHP/Jour_03/egloff_j/parrot
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 10 09:42:15 2014 Julien EGLOFF
 // Last update Thu Apr 10 13:57:34 2014 Julien EGLOFF

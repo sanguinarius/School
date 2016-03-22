@@ -2,7 +2,7 @@
 ** my_apply_on_eq_in_list.c for my_apply_on_eq_in_list.c in /Users/laxa/Documents/Piscine/C/Jour_09/egloff_j/my_apply_on_eq_in_list
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 11:09:30 2014 EGLOFF Julien
 ** Last update Fri Apr  4 11:32:56 2014 EGLOFF Julien

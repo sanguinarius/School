@@ -2,7 +2,7 @@
 ** main.c for main.c in /Users/laxa/Documents/Piscine/C/Battle for Midgar/felzin_f/quete1
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 19:21:54 2014 EGLOFF Julien
 ** Last update Sat Apr  5 18:14:32 2014 EGLOFF Julien

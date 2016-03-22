@@ -3,7 +3,7 @@
 // ls.php for ls.php in /Users/laxa/Documents/Piscine/PHP/Jour_04/egloff_j/ls
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Fri Apr 11 11:52:16 2014 Julien EGLOFF
 // Last update Mon Apr 14 19:29:50 2014 Julien EGLOFF

@@ -2,7 +2,7 @@
 ** my_showmem.c for my_showmem in /Users/laxa/Documents/Piscine/C/Jour_04/egloff_j/my_showmem
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Mar 28 17:02:03 2014 EGLOFF Julien
 ** Last update Fri Mar 28 17:37:42 2014 EGLOFF Julien

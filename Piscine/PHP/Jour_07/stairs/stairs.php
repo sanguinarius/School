@@ -3,7 +3,7 @@
 // stairs.php for stairs.php in /Users/laxa/Documents/Piscine/PHP/Jour_07/egloff_j/stairs
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr 15 09:08:36 2014 Julien EGLOFF
 // Last update Tue Apr 15 09:15:21 2014 Julien EGLOFF

@@ -3,7 +3,7 @@
 // microshell.php for microshell.php in /Users/laxa/Documents/Piscine/PHP/Jour_05/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Sat Apr 12 08:45:24 2014 Julien EGLOFF
 // Last update Wed Apr 23 10:43:13 2014 Julien EGLOFF

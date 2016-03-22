@@ -2,7 +2,7 @@
 ** my_show_tab.c for my_show_tab in /Users/laxa/Documents/Piscine/C/Jour_07/egloff_j/my_param_to_tab
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Apr  2 11:21:18 2014 EGLOFF Julien
 ** Last update Wed Apr  2 15:12:34 2014 EGLOFF Julien

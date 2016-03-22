@@ -3,7 +3,7 @@
 // usort.php for usort.php in /Users/laxa/Documents/Piscine/PHP/Jour_03/egloff_j/usort
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Thu Apr 10 10:22:58 2014 Julien EGLOFF
 // Last update Thu Apr 10 12:23:35 2014 Julien EGLOFF

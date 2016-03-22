@@ -3,7 +3,7 @@
 // tmpemacs.php for tmpemacs.php in /Users/laxa/Documents/Piscine/PHP/Jour_07/egloff_j/tmpemacs
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr 15 11:40:44 2014 Julien EGLOFF
 // Last update Tue Apr 15 11:55:47 2014 Julien EGLOFF

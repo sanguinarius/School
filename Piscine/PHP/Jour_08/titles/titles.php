@@ -3,7 +3,7 @@
 // titles.php for titles.php in /Users/laxa/Documents/Piscine/PHP/Jour_08/egloff_j/titles
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr 16 10:14:35 2014 Julien EGLOFF
 // Last update Wed Apr 16 12:16:16 2014 Julien EGLOFF

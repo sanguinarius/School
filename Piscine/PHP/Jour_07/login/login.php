@@ -3,7 +3,7 @@
 // login.php for login.php in /Users/laxa/Documents/Piscine/PHP/Jour_07/egloff_j/login
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr 15 09:17:22 2014 Julien EGLOFF
 // Last update Tue Apr 15 09:58:39 2014 Julien EGLOFF

@@ -3,7 +3,7 @@
 // find.php for find.php in /Users/laxa/Documents/Piscine/PHP/Jour_06/egloff_j/find
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Mon Apr 14 11:12:36 2014 Julien EGLOFF
 // Last update Mon Apr 14 12:15:48 2014 Julien EGLOFF

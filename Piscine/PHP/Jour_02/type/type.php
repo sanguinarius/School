@@ -3,7 +3,7 @@
 // type.php for type.php in /Users/laxa/Documents/Piscine/PHP/Jour_02/egloff_j/type
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Wed Apr  9 09:37:14 2014 Julien EGLOFF
 // Last update Wed Apr  9 09:47:47 2014 Julien EGLOFF

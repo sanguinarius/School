@@ -3,7 +3,7 @@
 // my_pathinfo.php for my_pathinfo.php in /Users/laxa/Documents/Piscine/PHP/Jour_07/egloff_j/my_pathinfo
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Tue Apr 15 10:21:44 2014 Julien EGLOFF
 // Last update Tue Apr 15 18:25:50 2014 Julien EGLOFF

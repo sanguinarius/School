@@ -2,7 +2,7 @@
 ** my_strstr.c for my_strstr in /Users/laxa/Documents/Piscine/C/Jour_04/egloff_j/my_strstr
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Mar 28 10:03:32 2014 EGLOFF Julien
 ** Last update Fri Mar 28 10:26:06 2014 EGLOFF Julien

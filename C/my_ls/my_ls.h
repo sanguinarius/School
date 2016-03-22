@@ -2,7 +2,7 @@
 ** my_ls.h for my_ls.h in /Users/laxa/Documents/C/my_ls/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Aug  6 12:26:46 2014 Julien EGLOFF
 ** Last update Wed Aug 13 12:19:33 2014 Julien EGLOFF

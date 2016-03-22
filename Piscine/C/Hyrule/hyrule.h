@@ -2,7 +2,7 @@
 ** hyrule.h for hyrule.h for hyrule in /Users/laxa/Documents/Piscine/C/Hyrule
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Apr 10 15:55:57 2014 Julien EGLOFF
 ** Last update Thu Apr 10 16:55:45 2014 Julien EGLOFF

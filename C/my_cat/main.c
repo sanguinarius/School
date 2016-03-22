@@ -2,7 +2,7 @@
 ** main.c for my_cat in /Users/laxa/Documents/C/my_cat/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Tue Jun 10 15:40:39 2014 Julien EGLOFF
 ** Last update Thu Jun 26 12:14:05 2014 Julien EGLOFF

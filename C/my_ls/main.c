@@ -2,7 +2,7 @@
 ** main.c for main in /Users/laxa/Documents/C/my_ls/egloff_j
 ** 
 ** Made by Julien EGLOFF
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Wed Aug  6 11:10:28 2014 Julien EGLOFF
 ** Last update Wed Aug 13 11:51:31 2014 Julien EGLOFF

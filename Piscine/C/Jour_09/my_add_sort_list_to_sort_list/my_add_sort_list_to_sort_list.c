@@ -2,7 +2,7 @@
 ** my_add_sort_list_to_sort_list.c for my_add_sort_list_to_sort_list.c in /Users/laxa/Documents/Piscine/C/Jour_09/egloff_j/my_add_sort_list_to_sort_list
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Fri Apr  4 17:28:36 2014 EGLOFF Julien
 ** Last update Fri Apr  4 17:37:07 2014 EGLOFF Julien

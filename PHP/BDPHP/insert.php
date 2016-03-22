@@ -2,7 +2,7 @@
 // insert.php for insert.php in /Users/laxa/Documents/PHP/BDPHP/egloff_j
 // 
 // Made by Julien EGLOFF
-// Login   <egloff_j@etna-alternance.net>
+// Login   <laxa>
 // 
 // Started on  Fri Apr 25 10:37:25 2014 Julien EGLOFF
 // Last update Fri Apr 25 16:12:29 2014 Julien EGLOFF

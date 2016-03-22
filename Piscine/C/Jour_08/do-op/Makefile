@@ -2,7 +2,7 @@
 ## Makefile for Makefile in /Users/laxa/Documents/Piscine/C/Jour_08/egloff_j/do-op
 ## 
 ## Made by EGLOFF Julien
-## Login   <egloff_j@etna-alternance.net>
+## Login   <laxa>
 ## 
 ## Started on  Thu Apr  3 16:06:27 2014 EGLOFF Julien
 ## Last update Thu Apr  3 16:06:28 2014 EGLOFF Julien

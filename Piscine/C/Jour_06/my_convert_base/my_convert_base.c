@@ -2,7 +2,7 @@
 ** my_convert_base.c for my_convert_base in /Users/laxa/Documents/Piscine/C/Jour_06/egloff_j/my_convert_base
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Tue Apr  1 10:53:54 2014 EGLOFF Julien
 ** Last update Tue Apr  1 15:07:56 2014 EGLOFF Julien
